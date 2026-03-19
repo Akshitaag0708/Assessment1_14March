@@ -51,29 +51,6 @@ Use Selenium’s `send_keys()` method to type the text into the search field.
 ## Practical Exercise 3
 
 ### Title
-**Automate Product Search on Myntra Using Class Name Locator**
-
-### Description
-Open the **Myntra** website using Selenium WebDriver.
-
-Locate the search input field on the homepage using the **class name locator**.
-
-Enter the text **"shoes"** into the search field using Selenium’s `send_keys()` method.
-
-Ensure that the correct locator is used to identify the search box before entering the text.
-
-### Expected Outcome
-- The browser launches successfully.
-- The Myntra homepage loads.
-- The search field is located using the **class name locator**.
-- The word **"shoes"** appears in the search box.
-- The script executes without errors.
-
----
-
-## Practical Exercise 4
-
-### Title
 **Automate Text Field Entry Using ID Locator**
 
 ### Description
@@ -92,5 +69,29 @@ Students should ensure that:
 - The Naukri registration page opens.
 - Text is entered into the **Name, Email, and Password** fields using **By.ID**.
 - The fields visibly contain the entered data after script execution.
+
+---
+
+## Practical Exercise 4
+
+### Title
+**Automate Product Search on Myntra Using Class Name Locator**
+
+### Description
+Open the **Myntra** website using Selenium WebDriver.
+
+Locate the search input field on the homepage using the **class name locator**.
+
+Enter the text **"shoes"** into the search field using Selenium’s `send_keys()` method.
+
+Ensure that the correct locator is used to identify the search box before entering the text.
+
+### Expected Outcome
+- The browser launches successfully.
+- The Myntra homepage loads.
+- The search field is located using the **class name locator**.
+- The word **"shoes"** appears in the search box.
+- The script executes without errors.
+
 
 ---
