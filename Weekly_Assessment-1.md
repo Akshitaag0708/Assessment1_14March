@@ -73,8 +73,6 @@ Ensure that the correct locator is used to identify the search box before enteri
 
 ## Practical Exercise 4
 
-## Practical Exercise 1
-
 ### Title
 **Automate Text Field Entry Using ID Locator**
 
