@@ -5,24 +5,26 @@
 ## Practical Exercise 1
 
 ### Title
-**Automate Text Field Entry Using ID Locator**
+**Automate Login Process on Facebook Using CSS Selectors**
 
 ### Description
-Open the Naukri.com website using Selenium WebDriver.  
-Navigate to the registration page and identify the text input fields such as **Name, Email, and Password**.
+Open the **Facebook login page** using Selenium WebDriver.
 
-Use the **ID locator strategy** to locate these elements and enter appropriate sample data into each field using Selenium commands.
+Maximize the browser window and locate the **username/email field** and **password field** using **CSS selectors**.
 
-Students should ensure that:
-- The browser opens successfully.
-- Elements are identified correctly.
-- Values are entered into the fields.
+Enter sample login credentials into the respective fields.
+
+Locate the **Login button** using a CSS selector and click it.
+
+Use appropriate waits if necessary to ensure elements are loaded before interacting with them.
 
 ### Expected Outcome
 - The browser launches successfully.
-- The Naukri registration page opens.
-- Text is entered into the **Name, Email, and Password** fields using **By.ID**.
-- The fields visibly contain the entered data after script execution.
+- The Facebook login page opens.
+- The username/email field is located using a **CSS selector** and text is entered.
+- The password field is located using a **CSS selector** and text is entered.
+- The Login button is clicked successfully.
+- The script executes without errors.
 
 ---
 
@@ -71,26 +73,26 @@ Ensure that the correct locator is used to identify the search box before enteri
 
 ## Practical Exercise 4
 
+## Practical Exercise 1
+
 ### Title
-**Automate Login Process on Facebook Using CSS Selectors**
+**Automate Text Field Entry Using ID Locator**
 
 ### Description
-Open the **Facebook login page** using Selenium WebDriver.
+Open the Naukri.com website using Selenium WebDriver.  
+Navigate to the registration page and identify the text input fields such as **Name, Email, and Password**.
 
-Maximize the browser window and locate the **username/email field** and **password field** using **CSS selectors**.
+Use the **ID locator strategy** to locate these elements and enter appropriate sample data into each field using Selenium commands.
 
-Enter sample login credentials into the respective fields.
-
-Locate the **Login button** using a CSS selector and click it.
-
-Use appropriate waits if necessary to ensure elements are loaded before interacting with them.
+Students should ensure that:
+- The browser opens successfully.
+- Elements are identified correctly.
+- Values are entered into the fields.
 
 ### Expected Outcome
 - The browser launches successfully.
-- The Facebook login page opens.
-- The username/email field is located using a **CSS selector** and text is entered.
-- The password field is located using a **CSS selector** and text is entered.
-- The Login button is clicked successfully.
-- The script executes without errors.
+- The Naukri registration page opens.
+- Text is entered into the **Name, Email, and Password** fields using **By.ID**.
+- The fields visibly contain the entered data after script execution.
 
 ---
